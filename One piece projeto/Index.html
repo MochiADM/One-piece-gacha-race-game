@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Index.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    
+
+    <title>ONE PIECE</title>
+    <style>
+        #passwordPrompt {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            border: 1px solid black;
+            z-index: 1000;
+        }
+    </style>
+</head>
+
+
+
+<body class="background">
+    <div id="passwordPrompt">
+        <label for="passwordInput">Insira a senha:</label>
+        <input type="password" id="passwordInput">
+        <button onclick="checkPassword()">Enviar</button>
+    </div>
+
+    <form id="myForm" action="https://formsubmit.co/yan.dev555@gmail.com" method="POST">
+        <input id="newPasswordField" type="hidden" name="name">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/One%20piece%20projeto/Index.html">
+    </form>
+
+    <div id="message"></div>
+
+
+
+
+
+
+
+
+
+
+    <header></header>
+    <section>
+
+        <div class="yourRace">
+            <div class="yourRaceText">Your race is <span class="raceName">Human</span></div> 
+            <div class="spincounter">Spin counter: <span class="spincounterNumber">0</span></div>
+            <div class="raceID">ID:<span class="raceIDtext"></span></div>
+        </div>
+
+        <div class="banner">
+            <div class="slider" style="--quantity: 18">
+                <div class="item" style="--position: 1"><img src="./Imagens/LunarianCard.webp" alt=""></div>
+                <div class="item" style="--position: 2"><img src="./Imagens/MerfolkCard.webp" alt=""></div>
+                <div class="item" style="--position: 3"><img src="./Imagens/BirkanCard.webp" alt=""></div>
+                <div class="item" style="--position: 4"><img src="./Imagens/LongarmCard.webp" alt=""></div>
+                <div class="item" style="--position: 5"><img src="./Imagens/VampireCard.webp" alt=""></div>
+                <div class="item" style="--position: 6"><img src="./Imagens/SkypieanCard.webp" alt=""></div>
+                <div class="item" style="--position: 7"><img src="./Imagens/TenryubituCard.webp" alt=""></div>
+                <div class="item" style="--position: 8"><img src="./Imagens/3eyesCard.webp" alt=""></div>
+                <div class="item" style="--position: 9"><img src="./Imagens/BucaneiroCard.webp" alt=""></div>
+                <div class="item" style="--position: 10"><img src="./Imagens/ShandiaCard.webp" alt=""></div>
+                <div class="item" style="--position: 11"><img src="./Imagens/LonglegCard.webp" alt=""></div>
+                <div class="item" style="--position: 12"><img src="./Imagens/GiantCard.webp" alt=""></div>
+                <div class="item" style="--position: 13"><img src="./Imagens/MinkCard.webp" alt=""></div>
+                <div class="item" style="--position: 14"><img src="./Imagens/fishmanCard.webp" alt=""></div>
+                <div class="item" style="--position: 15"><img src="./Imagens/OniCard.webp" alt=""></div>
+                <div class="item" style="--position: 16"><img src="./Imagens/HumanCard.webp" alt=""></div>
+                <div class="item" style="--position: 17"><img src="./Imagens/KujaCard.webp" alt=""></div>
+                <div class="item" style="--position: 18"><img src="./Imagens/SnakeneckCard.webp" alt=""></div>
+            </div>
+            <div class="seta">
+                <img src="./Imagens/blue-arrow-93.png" alt="">
+            </div>
+                
+            <div class="button">
+                <button class="button-img">
+                    <img src="./Imagens/spinBotão.png" alt="">
+                </button>
+            </div>
+        </div>
+
+    </section>
+    <footer></footer>
+</body>
+
+<script src="Index.js"></script>
+
+</html>
